@@ -38,6 +38,6 @@ public class Player : MonoBehaviour
 
     private void Die()
     {
-        rb.bodyType = RigidbodyType2D.Static;
+        Time.timeScale = 0f;
     }
 }
