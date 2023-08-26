@@ -1,4 +1,4 @@
-using UnityEngine;
+ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
@@ -26,5 +26,18 @@ public class Player : MonoBehaviour
     public Vector2 GetPosition()
     {
         return rb.position;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Trap"))
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        rb.bodyType = RigidbodyType2D.Static;
     }
 }

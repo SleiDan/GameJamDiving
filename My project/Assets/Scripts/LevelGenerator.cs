@@ -22,10 +22,8 @@ public class LevelGenerator : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log(Vector3.Distance(player.GetPosition(), lastEndPosition));
         if (Vector3.Distance(player.GetPosition(), lastEndPosition) < PLAYER_DISTANCE_SPAWN_LEVEL_PART)
         {
-            Debug.Log(Vector3.Distance(player.GetPosition(), lastEndPosition));
             SpawnLevelPart();
         }
     }
