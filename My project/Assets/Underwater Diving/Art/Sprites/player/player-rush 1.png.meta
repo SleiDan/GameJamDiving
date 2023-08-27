@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: cc81d60d5750149f784ac74b91286ec5
+guid: 8b3f3499d8af08f4da8fcb2637736992
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: player-idle_0
+    second: player-rush_0
   - first:
       213: 21300002
-    second: player-idle_1
+    second: player-rush_1
   - first:
       213: 21300004
-    second: player-idle_2
+    second: player-rush_2
   - first:
       213: 21300006
-    second: player-idle_3
+    second: player-rush_3
   - first:
       213: 21300008
-    second: player-idle_4
+    second: player-rush_4
   - first:
       213: 21300010
-    second: player-idle_5
+    second: player-rush_5
+  - first:
+      213: 21300012
+    second: player-rush_6
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -193,7 +196,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player-idle_0
+      name: player-rush_0
       rect:
         serializedVersion: 2
         x: 0
@@ -214,7 +217,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-idle_1
+      name: player-rush_1
       rect:
         serializedVersion: 2
         x: 80
@@ -235,7 +238,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-idle_2
+      name: player-rush_2
       rect:
         serializedVersion: 2
         x: 160
@@ -256,7 +259,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-idle_3
+      name: player-rush_3
       rect:
         serializedVersion: 2
         x: 240
@@ -277,7 +280,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-idle_4
+      name: player-rush_4
       rect:
         serializedVersion: 2
         x: 320
@@ -298,7 +301,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-idle_5
+      name: player-rush_5
       rect:
         serializedVersion: 2
         x: 400
@@ -318,6 +321,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: player-rush_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -329,12 +353,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      player-idle_0: 21300000
-      player-idle_1: 21300002
-      player-idle_2: 21300004
-      player-idle_3: 21300006
-      player-idle_4: 21300008
-      player-idle_5: 21300010
+      player-rush_0: 21300000
+      player-rush_1: 21300002
+      player-rush_2: 21300004
+      player-rush_3: 21300006
+      player-rush_4: 21300008
+      player-rush_5: 21300010
+      player-rush_6: 21300012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
