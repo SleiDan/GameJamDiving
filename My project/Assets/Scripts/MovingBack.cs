@@ -25,4 +25,9 @@ public class MoveLeft : MonoBehaviour
         // Увеличиваем текущую скорость с каждым кадром
         currentMoveSpeed += accelerationRate * Time.deltaTime;
     }
+
+    public void Death()
+    {
+        currentMoveSpeed = 0f;
+    }
 }
