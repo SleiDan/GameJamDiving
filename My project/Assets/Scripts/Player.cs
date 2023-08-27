@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private float currentMoveSpeed; // Текущая скорость движения
 
+    public GameObject restartMenuUI;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -38,6 +40,7 @@ public class Player : MonoBehaviour
 
     private void Die()
     {
+        restartMenuUI.SetActive(true);
         Time.timeScale = 0f;
     }
 }
