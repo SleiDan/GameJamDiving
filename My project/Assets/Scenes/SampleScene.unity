@@ -3394,6 +3394,7 @@ GameObject:
   - component: {fileID: 1903567105}
   - component: {fileID: 1903567106}
   - component: {fileID: 1903567107}
+  - component: {fileID: 1903567108}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3469,7 +3470,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 612000f6e71e04e39b891295d3ea9098, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3531,14 +3532,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.175, y: 0.6}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.14, y: 0.64}
   m_EdgeRadius: 0
 --- !u!114 &1903567106
 MonoBehaviour:
@@ -3569,6 +3570,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialMoveSpeed: 1
   accelerationRate: 0.05
+--- !u!95 &1903567108
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903567100}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3d1fde816985a4648b9acd22fe183118, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1917584092
 GameObject:
   m_ObjectHideFlags: 0
@@ -3649,7 +3671,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.08, y: 1}
+  m_Size: {x: 8.08, y: 1.18}
   m_EdgeRadius: 0
 --- !u!1 &2003674881
 GameObject:
@@ -4016,7 +4038,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.19, y: 1}
+  m_Size: {x: 8.19, y: 1.12}
   m_EdgeRadius: 0
 --- !u!1 &2072527009
 GameObject:
